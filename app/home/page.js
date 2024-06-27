@@ -23,7 +23,7 @@ const HomePage = () => {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-white text-green-800">
       <header className="w-full max-w-5xl mx-auto flex justify-between items-center py-8">
         <div className="flex items-center gap-2">
           <Image
@@ -56,13 +56,13 @@ const HomePage = () => {
         <div className="flex justify-center gap-4">
           <a
             href="#"
-            className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+            className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition"
           >
             Get Started
           </a>
           <a
             href="#"
-            className="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition"
+            className="px-6 py-3 border border-green-600 text-green-600 rounded-lg hover:bg-green-50 transition"
           >
             Learn More
           </a>
@@ -70,25 +70,25 @@ const HomePage = () => {
       </section>
 
       <section className="w-full max-w-5xl mx-auto py-16 grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div className="p-8 bg-black rounded-lg text-center">
+        <div className="p-8 bg-green-100 rounded-lg text-center">
           <h3 className="text-2xl font-semibold mb-2">Easy to Use</h3>
           <p>
             MyWallet offers a user-friendly interface that is easy to navigate.
           </p>
         </div>
-        <div className="p-8 bg-black rounded-lg text-center">
+        <div className="p-8 bg-green-100 rounded-lg text-center">
           <h3 className="text-2xl font-semibold mb-2">Secure Transactions</h3>
           <p>
             We prioritize your security with advanced encryption and fraud protection.
           </p>
         </div>
-        <div className="p-8 bg-black rounded-lg text-center">
+        <div className="p-8 bg-green-100 rounded-lg text-center">
           <h3 className="text-2xl font-semibold mb-2">24/7 Support</h3>
           <p>
             Our support team is available around the clock to assist you.
           </p>
         </div>
-        <div className="p-8 bg-black rounded-lg text-center">
+        <div className="p-8 bg-green-100 rounded-lg text-center">
           <h3 className="text-2xl font-semibold mb-2">Global Access</h3>
           <p>
             Access your wallet from anywhere in the world.
